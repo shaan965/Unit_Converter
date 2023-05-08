@@ -1,0 +1,149 @@
+/* sets the margin of all the element to 10px on all sides*/
+
+selector{
+    margin: 10 px;
+}
+
+/* Home section  which has the app name and nav bar. The styling is applied by id */
+body{
+    background-color: solid #1b1e21;
+}
+
+#home {
+    background-color:  #3e474c;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+   }
+
+/* Application name inside the home section. The styling is applied by tag name */
+header {
+    font-size: 30px;
+    font-family: Arial;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;
+}
+
+/* Navigation Bar Container*/
+.topdiv {
+    float: right;
+    padding-right: 2cm;
+    margin-left: 2px;
+    background-color: #3e474c; 
+  }
+
+/* Navigation Bar Buttons */
+.topmenu {
+    color: rgb(180, 72, 72);
+    background-color:   #4a9dc9;
+    margin: 20px;
+    font-family: Arial;
+    padding: 1px;
+    font-size: 35px;
+    text-decoration:none;
+    border-radius: 40px;
+  }
+
+  button:hover {
+    cursor: pointer;
+}
+
+/* Container for all the three conversion calculator sections   */
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+
+figure {
+    float:left;
+    justify-self: auto;
+    width:200px
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color:black;
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial;
+}
+
+button{
+    font-size: 15px;
+    border: transparent;
+    color:rgb(240, 234, 245);
+    width: 100px;
+    background-color: rgb(49, 42, 71);
+    border-radius: 30px;
+    padding-right: 50px;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.b{
+    border-top-style: solid;
+    background-color: #e8e8e8;
+    border-top-width: 30px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    display: flex;
+    font-family: Arial;
+}
+
+.temperature{
+    border-top-color: green;
+    margin-bottom: 20px;
+}
+.weight{
+    border-top-color: coral;
+    margin-bottom: 20px;
+}
+.distance{
+    border-top-color: cyan;
+    margin-bottom: 20px;
+}
+
+legend {
+    border-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial;
+}
+
+/* Floating icon for the home button */
+.iconbutton{
+    width:75px;
+    height:75px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+    }
+.iconbutton img {
+    width:50px
+}
+    
+footer {
+    background-color:rgb(240, 234, 245);
+    margin-top: 10px;
+    font-family: Arial;
+}
