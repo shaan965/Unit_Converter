@@ -4,6 +4,7 @@
     <!-- This is your page title that appears on the browser window or tab -->
     <title>Document</title>
       <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
   </head>
   <body>
     <section id="home">
@@ -45,7 +46,7 @@
                         <input type="number" id="c"> <br/>
 
                         <!-- The conversion button -->
-                        <button id="temperature"> Convert </button> <br/>
+                        <button id="temperature" onclick="tempConverter()"> Convert </button> <br/>
                         
                         <!-- Label for Temperature output -->
                         <input type="number" id="f"> <br/>
@@ -76,7 +77,7 @@
                         <label for="Weight">Kilograms</label> <br/>
                         <input type="number" id="kg"> <br/>
                         <!-- The conversion button -->
-                        <button id="weight"> Convert </button> <br/>
+                        <button id="weight" onclick="weightConverter()"> Convert </button> <br/>
                         <!-- Label for Weight output -->
                         <input type="number" id="lbs"> <br/>
                         <label for="Weight">Pounds</label>
@@ -105,7 +106,7 @@
                         <label for="Distance">Kilometers</label> <br/>
                         <input type="number" id="km"> <br/>
                         <!-- The conversion button -->
-                        <button id="distance"> Convert </button> <br/>
+                        <button id="distance" onclick="lengthConverter()"> Convert </button> <br/>
                         <!-- Label for Distance output -->
                         <input type="number" id="m"> <br/>
                         <label for="Distance">Miles</label>
